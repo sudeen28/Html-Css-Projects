@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  nav {
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    padding: 20px 0px;
+    margin-left: 155px;
+    margin-top: 40px;
+  }
+  .logo {
+    width: 10%;
+    color: rgb(99, 191, 182);
+    margin-left: 35px;
+    font-family:cursive;
+  }
+  .nav-link {
+    width: 50%;
+  }
+  .nav-link ul {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40%;
+  }
+  a {
+    color: grey;
+  }
+  main {
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+    margin: 0% 15%;
+  }
+  .workout-text {
+    width: 60%;
+  }
+  .workout-text h1 {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    line-height: 100%;
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: 100;
+    color: black;
+  }
+  .workout-text h1 span {
+    color: rgb(99, 191, 182);
+  }
+  .workout-text p {
+    width: 450px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    line-height: 150%;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 50;
+    color: gray;
+  }
+  .workout-text p,
+  .workout-text h1 {
+    text-shadow: 2px 2px 5px rgb(147, 141, 141);
+  }
+  button {
+    width: 100px;
+    padding: 10px;
+    background-color: rgba(67, 158, 114, 0.764);
+    color: white;
+    border-radius: 3px;
+    margin-top: 20px;
+    border: none;
+    padding: 10px 10px;
+    box-shadow: 2px 2px 5px rgb(154, 146, 146);
+    transition: ease-in-out 2s;
+  
+  }
+  button:hover{
+    background-color: rgba(8, 154, 83, 0.764);
+    box-shadow: 3px 3px 4px rgb(118, 114, 114);
+    transform: scale(1.1);
+    transition: ease-in-out 1s;
+  }
+  .workout-img {
+    width: 40%;
+  }
+  .workout-img img {
+    width: 400px;
+    height: 450px;
+  }
+  footer {
+    text-align: center;
+  }
+  #baddy {
+    font-family: monospace;
+  }
+  
+  /* --------------MEDIA QUERY--------------- */
+  @media (max-width: 996px) {
+    main {
+      flex-direction: column-reverse;
+      margin: 0% 0%;
+      width: 100%;  
+    }
+    .workout-text {
+      width: 100%;
+      text-align: center;
+      position: absolute;
+      bottom: 5%;
+    }
+    .workout-text h1 {
+      margin: 0% 0%;
+      line-height: 35px;
+    }
+    .workout-text p {
+      margin: 0% 0%;
+      width: 100%;
+    }
+    nav {
+      width: 100%;
+      padding: 10px 0px;
+      margin: 0% 0%;
+      bottom: 93%;
+      position: absolute;
+    }
+    .nav-link {
+      width: 100%;
+    }
+    .nav-link ul {
+      width: 50%;
+    }
+    footer p{
+      bottom:1%;
+      position: absolute;
+      left:25%;
+    }
+    #baddy{
+      bottom:1%;
+      position: absolute;
+    }
+  }
+  
