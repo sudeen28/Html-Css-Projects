@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.head {
+  background-image: url(../assets/IMG_2090.JPG);
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+.head h1 {
+  font-size: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  left: 30%;
+  color: rgb(101, 165, 11);
+  padding: 5px;
+}
+.head span {
+  font-size: 20px;
+  text-transform: capitalize;
+  color: white;
+}
+.head-content {
+  background-color: black;
+  padding: 30px;
+  color: white;
+  text-align: center;
+}
+.head-content h1 {
+  font-weight: 400;
+  font-size: 20px;
+}
+.head-content h1 span {
+  font-weight: 400;
+  font-size: 50px;
+}
+.work {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 20px;
+  max-width: 1100px;
+  margin: 50px auto;
+}
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  border-radius: 10px;
+  box-shadow: 1px 3px 3px 3px rgb(1, 1, 1, 0.2);
+  height: 400px;
+  width: 320px;
+  height: auto;
+  margin-top: 5px;
+  transition: ease-in-out 0.5s;
+}
+.card-image {
+  text-align: center;
+}
+.card-image img {
+  width: 300px;
+  height: 350px;
+}
+.card-text h1 {
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.card-text p {
+  font-size: 13px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.card:hover {
+  transform: scale(1.04);
+  box-shadow: 1px 3px 3px 3px rgb(1, 1, 1, 0.3);
+  transition: ease-in-out 0.5s;
+}
+.bottom{
+    display: flex;
+}
+.contact{
+    background-color: green;
+    padding: 32px;
+    height: 300px;
+}
+.about-me{
+    background-color: red;
+    padding: 32px;
+    height: 300px;
+}
+
+.contact h1,.about-me h1{
+    text-transform: capitalize;
+    margin-top: 30px;
+    color: white;
+}
+.contact p,.about-me p{
+    margin-top: 10px;
+    color: white;
+    font-weight: 400;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+@media (max-width: 768px) {
+    .bottom{
+        flex-direction: column;
+    }
+}

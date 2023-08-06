@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.container {
+  border: 10px solid black;
+  box-sizing: border-box;
+  height: auto;
+  background-color: aqua;
+}
+
+.content {
+  margin: 10% 15%;
+  /* max-width: 900px; */
+}
+
+.image {
+  display: flex;
+  align-items: end;
+}
+.image img {
+  width: 30%;
+  border-radius: 40%;
+  overflow: hidden;
+}
+.image-title h1{
+    font-size: 40px;
+    display: flex;
+    justify-content:end;
+
+}
+.image-title p {
+  display: flex;
+  justify-content: end;
+}
+
+.story{
+    margin-top: 5%;
+}
+.story p{
+    margin-top: 1%;
+}
+
+.bio{
+    margin-top: 5%;
+}
+
+ul{
+    margin-left: 6%;
+}
+
+.bio p{
+    display: flex;
+    justify-content: end;
+    margin-top: 5%;
+}

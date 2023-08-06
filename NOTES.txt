@@ -1,0 +1,26 @@
+on 8/11/2023
+i embarked ona journey to build 10 html & css projects
+which as i'm writing this notes i,ve completed one and embarking on almost done wuth the second one 
+--------------------wat i learnt so far---------
+
+
+------TOP PROPERTY----
+i stumbled on some new css property which includes::
+the [Top property] and the position absolute and relative
+
+the top property allows you to move an element downwards more like the margin tools ecxept the top property doesnt create a new space
+
+
+--------FILTER PROPERTY--------------------------------
+THIS ALLOWS YOU TO BLUR ADD EFFECT TO A BACKGROUND EFFECT LIKE BLUR,GREYSCALE AND THE LIKES
+
+-------------POSITION RELATIVE & POSITION ABSOLUTE-------
+
+
+
+
+
+
+
+----------TRANSFORM & TRANSLATE PROPERTY--------------
+/

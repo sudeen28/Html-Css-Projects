@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.bg{
+    background-image: url(../assets/IMG_E5288.JPG);
+    height: 100vh;
+    background-size: cover;
+    position: relative; 
+    background-repeat: no-repeat;
+    align-items: center;
+}
+.bg h1{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 30%;
+    background-color: rgb(27, 27, 27);
+    color: aliceblue;
+    padding: 1%;
+    margin: 0% 33%;
+
+}
+
+.section-2{
+    background-color: white;
+    height: 35vh;
+    color: brown;
+
+}
+
+.bg-2 h1{
+    display: flex;
+    justify-content: center;
+    margin: 2% 10%;
+}
+.bg-2 p{
+    display: flex;
+    justify-content: center;
+    margin: 2% 10%;
+}
+.bg-3{
+    background-image: url(../assets/IMG_E5288.JPG);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+}
+.text{
+    top: 165%;
+    position: absolute;
+    left:28%;
+    background-color: #827f7f;
+    border: 5px solid black;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    z-index: 10;
+
+}
+
+.bg-4{
+    background-image: url(../assets/IMG_E5288.JPG);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position:bottom   
+}
+
+#para{
+    position: absolute;
+    top:260%;
+    left: 38%;
+    border: 5px solid black;
+}
+
+.bg,.bg-3,.bg-4{
+    background-attachment: fixed;
+}
